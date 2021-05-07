@@ -1,0 +1,44 @@
+
+body {
+	background-color: #c8eed9;
+}
+.container {
+text-align: center;
+}
+
+.img1, .img2 {
+	height: 220px;
+}
+
+.img1, .p1 {
+	margin-left: -400px;
+}
+
+.img2, .p2 {
+	margin-left: 400px;
+}
+.p1, .p2 {
+	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
+}
+h1 {
+	font-size: 60px;
+	font-family: 'Goblin One', cursive;
+}
+.btn {
+	box-shadow: 0 5px #666;
+}
+button.btn:hover {
+	background-color: #000000;
+}
+button.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 50px #666;
+  transform: translateY(4px);
+}
+button.btn {
+	margin-top: -520px;
+}
+footer {
+	text-align: center;
+}
